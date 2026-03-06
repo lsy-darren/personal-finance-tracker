@@ -1,0 +1,28 @@
+# Environment variables (contains API keys and sensitive personal data)
+.env
+
+# Bank statement PDFs
+*.pdf
+
+# Data folders (contain real financial data)
+Input/
+Processed/
+Processed CSVs/
+Archive/
+Holding/
+Test/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
